@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+                <style>.lw { font-size: 60px; font-family: Arial, Helvetica, sans-serif; }</style>
+            </head>
+            <body>
+                
+
+    <meta charset="UTF=8">
+<title>聰明人才能正確</title>
+
+
+<h1>智商測試</h1>
+Q1. 1+1= ？<br>
+<input type="radio" name="Q1" id="ans1">1
+<input type="radio" name="Q1" id="ans2">2
+<input type="radio" name="Q1" id="ans3">3
+<button onclick="question1()">submit</button>
+<p id="result1"></p>
+Q2. 請問我們應該救一人而殺一人嗎？<br>
+<input type="radio" name="Q2" id="ans4">應該
+<input type="radio" name="Q2" id="ans5">不應該
+<input type="radio" name="Q2" id="ans6">全殺了
+<button onclick="question2()">submit</button>
+<p id="result2"></p>
+Q3. 你是不是好人？<br>
+<input type="radio" name="Q3" id="ans7">是
+<input type="radio" name="Q3" id="ans8">不是
+<input type="radio" name="Q3" id="ans9">我是正義超人
+<button onclick="question3()">submit</button>
+<p id="result3"></p>
+
+
+                <script>// Write JavaScript here
+function question1(){
+    var ans1 = document.getElementById("ans1");
+    var ans2 = document.getElementById("ans2");
+    var ans3 = document.getElementById("ans3");
+if (ans1.checked){
+    document.getElementById("result1").innerHTML = "你想表達什麼？我猜猜：1加1個你，而你一無是處，所以還是1。 <img src='https://static.moepro.cn/s/4/uploads/allimg/230219/66-23021Z00421K5.png' width='20%'>";
+    }
+else if (ans2.checked){
+    document.getElementById("result1").innerHTML = "你認真的嗎？這麼簡單的問題也要按一下？好吧好吧，你好棒棒。 <img src='https://img.duoziwang.com/2019/03/06041943622379.jpg' width='20%'>";
+    }
+else if (ans3.checked){
+    document.getElementById("result1").innerHTML = "就像一個男人加一個女人，然後女人生雙胞胎難產死了，剩下一個命苦的爸爸扶養兩個小孩。這就是1+1=3的真相，如此悲慘，在你來之前都不會發生。<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2qdhkBD6sAp1pB6yrhs2zQtVB-aW395Hb9g&s' width='20%'>";
+    }
+}
+function question2(){
+    var ans4 = document.getElementById("ans4");
+    var ans5 = document.getElementById("ans5");
+    var ans6 = document.getElementById("ans6");
+if (ans4.checked){
+    document.getElementById("result2").innerHTML = "有什麼意義？。 <img src='https://static.moepro.cn/s/4/uploads/allimg/230219/66-23021Z00421K5.png' width='20%'>";
+    }
+else if (ans5.checked){
+    document.getElementById("result2").innerHTML = "那你來幹嘛？ <img src='https://img.duoziwang.com/2019/03/06041943622379.jpg' width='20%'>";
+    }
+else if (ans6.checked){
+    document.getElementById("result2").innerHTML = "警察叔叔，就是他！<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-b1r_Cau6QYNgRyU5e-eSmkdR71D6s4SPkw&s' width='20%'>";
+    }
+}
+function question1(){
+    var ans7 = document.getElementById("ans7");
+    var ans8 = document.getElementById("ans8");
+    var ans9 = document.getElementById("ans9");
+if (ans7.checked){
+    document.getElementById("result3").innerHTML = "恭喜恭喜。 <img src='https://static.moepro.cn/s/4/uploads/allimg/230219/66-23021Z00421K5.png' width='20%'>";
+    }
+else if (ans8.checked){
+    document.getElementById("result3").innerHTML = "👮叔叔，就是他！ <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-b1r_Cau6QYNgRyU5e-eSmkdR71D6s4SPkw&s' width='20%'>";
+    }
+else if (ans9.checked){
+    document.getElementById("result3").innerHTML = "往上看，是M78星雲，你媽在那邊。<img src='https://zh.up-next.com.hk/cdn/shop/products/i7_3c92d318-cb44-4ca5-9e1b-f96250867da3.jpg?v=1657013074' width='20%'>";
+    }
+}</script>
+            
+        
+    </body>
